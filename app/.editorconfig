@@ -1,0 +1,4 @@
+root = false
+
+[{karma.conf.js,protractor.conf.js}]
+indent_size = 2

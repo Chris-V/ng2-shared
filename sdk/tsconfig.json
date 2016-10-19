@@ -1,0 +1,34 @@
+{
+  "angularCompilerOptions": {
+    "genDir": "build/gen",
+    "debug": true
+  },
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "build/dist",
+    "rootDirs": [
+      "src",
+      "build/gen"
+    ],
+    "sourceMap": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "**/*.spec.ts"
+  ],
+  "files": [
+    "src/index.ts"
+  ]
+}

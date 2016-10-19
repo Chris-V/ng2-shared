@@ -1,0 +1,25 @@
+# IDEs and editors
+**/.idea/
+**/.settings/
+**/.vscode/
+.project
+.classpath
+*.launch
+*.ipr
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# dependencies
+**/node_modules/
+
+# misc
+**/tmp/
+*.log
+*.tmp
+
+#System Files
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
